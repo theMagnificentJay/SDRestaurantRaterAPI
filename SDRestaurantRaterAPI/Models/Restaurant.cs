@@ -33,6 +33,10 @@ namespace SDRestaurantRaterAPI.Models
             }
         }
 
+        //AverageFoodScore
+        //AverageEnviromentScore
+        //AverageCleanlinessScore
+
         public bool IsRecommended => Rating > 8.5;
     }
 }
